@@ -1,0 +1,11 @@
+     + Database creation method: Standard create
+     + Engine option: MySQL
+     + Engine version: MySQL 8.0.39
+     + Templates: Free Tier (Sandbox)
+     + DB instance identifier: Assignment1b
+     + Connectivity:
+        * Compute Resource: Don’t connect to an EC2 compute resource
+        * Network type: IPv4
+        * VPC: THieu_VPC
+     + Existing VPC security groups: DBServerSG
+     + Availability Zone: us-east-1a
