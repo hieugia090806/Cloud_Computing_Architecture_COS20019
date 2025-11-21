@@ -1,0 +1,15 @@
+- Risks from manual processes:
+   + Does not support repeatability at scale
+   + Does not have version control
+   + Lacks auto trails
+   + Has inconsistent configurations
+
+- Benefits of automation:
+   + Reduces manual intrvention or access
+   + Allows for reproduce environments
+   + Improves productivity
+   + Automates testing and scaling
+
+- Manual processes are error prone, unreliable, and inadequate to support an angile business
+- Manual processes create risks to applications and environments
+- Automation helps user's eliminate manual process and build rapidly
