@@ -1,0 +1,37 @@
+Assignment Overview
+Abstraction
+Introduction
+Business Scenario
+Logical Diagram
+ Introduction
+ User Access and Metadata Flow
+ Event0Driven Processing Flow
+ Data Storage and Persistence
+ Real-Time Status Update
+Serverless Multi-Tier Architecture
+ Introduction
+ Presentation Tier
+ Aplication Tier
+ Data Tier
+Physical Diagram
+ High Availability and Zoning
+ Network Security Strategy
+ Private Access Mechanism
+UML Sequence Diagrams
+ Media Upload and processing
+ Real-Time Status Update
+Requirement Fullfillment Analysis
+ Scalability & Reliability
+ Secure & Authorized Upload
+ Efficient Asynchronous Processing
+ Real-Time Status Feedback
+Cost Estimation
+ Traffic Assumptions
+ Monthly Cost Breakdown
+ Cost Efficiency Analysis
+Conclusion
+References
+ 
+
+
+     
