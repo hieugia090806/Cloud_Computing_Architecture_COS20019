@@ -1,0 +1,4 @@
+- Use IAM groups to ggrant the same accss rights to multiple users. Create groups that reflect job positions
+- Use ABAC rather than RBAC to scale permissions management
+- ABAC is an authorixation stratgy that defines permissions based on attributes. It simplifies access control managment by combining permissions into a single policy.
+- Attributes are key value pairs. AWS enables customers to assign attributes to their AWS resources and identities in the form of tags

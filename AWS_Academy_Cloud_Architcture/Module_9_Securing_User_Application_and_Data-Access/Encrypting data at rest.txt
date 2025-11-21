@@ -1,0 +1,32 @@
+- Symmetric encryption:
+   + Uses same key to encrypt and decrypt the data
+   + Typically faster and efficient for large amounts of data
+   + Widely used and generally accepted to be secure
+- When to use symmetric encryption:
+   + If speed, cost, and lower computational overhead are a priority
+   + If you're encrypting a large amount of data
+   + If encrypted data isn't leaving the boundaries of the organization's network
+- Asymmetric encryption:
+   + uses a key pair: a public key for encryption and a private key for decryption
+   + Generally regarded to be more secure than symmertric encryption, but it is slower
+- When to use asymmetric encryption:
+   + If you're sharing the data outside of the organization
+   + If regulations or governanace prohibit sharing the key
+   + If non-repudiation is required (Non-repudiation prevents a user from denying prior commitments or actions)
+   + If you're strictly segregating access to encryption keys based on orgnaization roles.
+- Amazon Key Management Service (AWS KMS):
+   + Provides the ability to create and manage crytographic keys
+   + Uses hardware security modules (HSMs) to protect your keys
+   + Integrates with other AWS services
+   + Provides the ability to set usage policies to determine which users can use keys.
+- AWS KMS key features:
+   + Keys:
+     * Customer managed 
+     * KMS managed
+     * Data key (symmetric)
+     * Data key pair (asymmetric)
+   + Crytographic operations:
+     * Encrypt
+     * Decrypt
+     * GenerateDataKey
+     * GenerateKeyPair

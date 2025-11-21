@@ -1,0 +1,21 @@
+- Two common patterns for seperating resource access:
+   + Multiple VPCs in a single account architectural pattern
+   + Multiple accounts, a VPC in each account architectural pattern
+- AWS Organixations:
+   + Account management service that you can use to consolidate multiple AWS accounts into a centrally managed organization.
+   + Tier pricing discounts available
+   + Includes account creation and management and consolidated billing capabilities
+   + Provides for heirarchical grouping of accounts
+   + Supports centralized policy control over AWS services and API actions using service control policies (SCPs)
+- Organizations SCPs:
+   + Offer central control over the maximum available permissions for all accounts in your organizations
+   + Enable control of which services are accessible to IAM users in member accounts.
+   + Define permissions that affect an entire account
+   + Define guardlines, or sets limits, on the actions that the account's administrator can delegate to the IAM users and roles in the affected accounts. IAM policies that are defined in individual accounts still apply.
+   + SCPs cannot be overridden by the local administrator
+- AWS Control Tower:
+   + AWS Control Tower facilitates the set up and governance of a secure, multi-account AWS environment
+   + AWS Control Tower benefits including:
+     * Automated set up of a new well-architected multi-account environment based on best pratices blueprints
+     * Governanace of AWS workloads with rules for security, operations, and internal compliance.
+     * Prescriptive guidance to govern your AWS environment at scale

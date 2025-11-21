@@ -1,0 +1,16 @@
+AWS services that support identity federation:
+- AWS Identity and Access Management (IAM): 
+= AWS IAM Identity Center (successor to AWS Single Sign-On)
+- AWS Security Token Service (AWS STS)
+- Amazon Cognito
+- AWS STS;
+   + AWS STS is a we service (API) that enables you to request temporary, limited-privilege credentials
+   + The credentia;s can be used by IAM users, federated users, or applications
+- Amazon Cognito: A fully managed service that provides the following services and features:
+   + Authentication, authorization, and user management for web and mobile applications
+   + Federated identities for sign in with soical identity providers or with SAML
+   + User pools that maintain a directory with user profiles authentication tokens
+   + Identity pools that enable the creation of unique identities and permissions assignment for users
+- AWS IAM Identity Center provides a unified administration experience to define, customize, and assign fine-grained permissions based on common job functions
+- AWS STS is a web service that rovides temporary AWS credentials and allows an IAM user, federated user, or application to assume an IAM role
+- An identity broker facilitates federation when users already have identities outside of AWS, such as corporate directory.
