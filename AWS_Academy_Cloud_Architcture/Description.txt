@@ -1,0 +1,1 @@
+From my experience, perhaps students should learn foundation knowledge in AWS Canvas before diving to the high-level knowledge
